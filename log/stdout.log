@@ -1,0 +1,50 @@
+[Mon, 28 Jan 2013 16:40:58 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 4000,
+  "spdy": null,
+  "ssl": null,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/home/ffullenk/desarrollo/todo_app/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/home/ffullenk/desarrollo/todo_app/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/home/ffullenk/desarrollo/todo_app/config/locales"
+    ]
+  },
+  "hostname": "0.0.0.0",
+  "fullHostname": "http://0.0.0.0:4000",
+  "connectCompatibility": false,
+  "detailedErrors": true,
+  "model": {
+    "defaultAdapter": "memory"
+  }
+}
+[Mon, 28 Jan 2013 16:40:58 GMT] INFO Creating 1 worker process.
+[Mon, 28 Jan 2013 16:40:59 GMT] INFO Server worker running in development on port 4000 with a PID of: 5070
+[Mon, 28 Jan 2013 16:40:59 GMT] DEBUG LOGGING STARTED ============================================
+[Mon, 28 Jan 2013 16:40:59 GMT] DEBUG ============================================================
+[Mon, 28 Jan 2013 17:06:15 GMT] INFO Code changed, killing 5070, cycling ...
+[Mon, 28 Jan 2013 17:06:15 GMT] INFO Creating 1 worker process.
+[Mon, 28 Jan 2013 17:06:16 GMT] INFO Server worker running in development on port 4000 with a PID of: 5181
+[Mon, 28 Jan 2013 17:06:16 GMT] DEBUG LOGGING STARTED ============================================
+[Mon, 28 Jan 2013 17:06:16 GMT] DEBUG ============================================================
+[Mon, 28 Jan 2013 17:06:20 GMT] INFO Code changed, killing 5181, cycling ...
+[Mon, 28 Jan 2013 17:06:20 GMT] INFO Creating 1 worker process.
+[Mon, 28 Jan 2013 17:06:21 GMT] INFO Server worker running in development on port 4000 with a PID of: 5184
+[Mon, 28 Jan 2013 17:06:21 GMT] DEBUG LOGGING STARTED ============================================
+[Mon, 28 Jan 2013 17:06:21 GMT] DEBUG ============================================================
